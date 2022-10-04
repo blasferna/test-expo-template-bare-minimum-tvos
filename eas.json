@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 2.1.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "prebuildCommand": "prebuild --template https://github.com/abdullahceylan/expo-template-bare-minimum-tvos --no-install"
+    },
+    "preview": {
+      "distribution": "internal",
+      "prebuildCommand": "prebuild --template https://github.com/abdullahceylan/expo-template-bare-minimum-tvos --no-install"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
